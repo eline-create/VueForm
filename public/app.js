@@ -49,7 +49,7 @@ const app = new Vue({
         return re.test(name);
     },
     validphoneNumber: function (phoneNumber) {
-      var re = /[0-9] + [0-9] + [0-9] + [0-9] + [0-9] + [0-9] + [0-9] + [0-9] + [0-9] + [0-9] + [0-9]/;
+      var re = /[0-9]/;
       return re.test(phoneNumber);
    }
   }

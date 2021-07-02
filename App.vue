@@ -11,8 +11,6 @@
     <b>Cadastro Inicial</b>
     
   </p>
-
-  
   <p>
   
     <label for="name">Nome</label>
@@ -54,14 +52,18 @@
     >
   </p>
 
+
+
+
   <p>
     <input
       type="submit"
       value="Enviar"
     >
   </p>
-
  </form>
+
+ 
 
 </template>
 

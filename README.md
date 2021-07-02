@@ -24,5 +24,5 @@ Verificar se o usuário existe na base de dados
 Enviar link do GitHub por email (Até o dia 04/07)
 
 
-App running at:
+Aplicação rodando na porta:
   - Local:   http://localhost:8080/
