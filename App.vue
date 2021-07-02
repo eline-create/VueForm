@@ -51,17 +51,20 @@
       name="password"
     >
   </p>
-
-
-
-
   <p>
     <input
       type="submit"
       value="Enviar"
     >
   </p>
- </form>
+
+<script
+ </form> type="<style>
+ input{
+    margin-left: 10px;
+  }
+ </style>"
+ 
 
  
 

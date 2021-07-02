@@ -1,0 +1,24 @@
+{
+  "name": "vueform",
+  "version": "1.0.0",
+  "description": "Formulário com Vue",
+  "main": "index.js",
+  "dependencies": {
+    "vuelidate": "^0.7.6",
+    "vue-cli-plugin-vuetify": "^2.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eline-create/VueForm.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eline-create/VueForm/issues"
+  },
+  "homepage": "https://github.com/eline-create/VueForm#readme"
+}
