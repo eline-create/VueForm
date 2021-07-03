@@ -40,22 +40,23 @@
 </template>
 
 <script>
-const { numeric } = require("vuelidate/lib/validators");
-
-(data = {
-  errors: [],
-  name: null,
-  email: null,
-  phoneNumber: null,
-  password: null,
-}),
-  (computed = {
-    campos: function entradas() {
-      return numeric(this.phoneNumber) + numeric(this.password);
+({
+  el: "#Formulário",
+  data: {
+    errors: [],
+    name: null,
+    email: null,
+    phoneNumber: null,
+    password: null,
+  },
+  computed: {
+    campos: function () {
+      return Number(this.phoneNumber) + Number(this.password);
     },
-  }),
-  (methods = {
-    checkForm: function (e) {
+  },
+
+  methods: {
+    checkForm: function checkForm(e) {
       if (this.name && this.phoneNumber) {
         return true;
       }
@@ -79,13 +80,19 @@ const { numeric } = require("vuelidate/lib/validators");
 
       e.preventDefault();
     },
-    validName: function validName(name) {
+    validName: function (name) {
       var re = /[a-zA-Z]/;
       return re.test(name);
     },
-    validphoneNumber: function validphoneNumber(phoneNumber) {
+    validphoneNumber: function (phoneNumber) {
       var re = /[0-9]/;
       return re.test(phoneNumber);
     },
-  });
+  },
+});
 </script>
+<style>
+input {
+  margin-left: 10px;
+}
+</style>

@@ -24,5 +24,10 @@ Verificar se o usuário existe na base de dados
 Enviar link do GitHub por email (Até o dia 04/07)
 
 
-Aplicação rodando na porta:
-  - Local:   http://localhost:8080/
+Para abrir aplicação em local host usar o comando:
+
+```
+vue serve
+
+```
+
