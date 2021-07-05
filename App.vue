@@ -1,10 +1,10 @@
+
 <template>
   <form
     id="app"
     @submit="checkForm"
-    action="vueform-eline.netlify.app"
+    action="submit"
     method="post"
-    novalidate="true"
   >
     <p>
       <b>Cadastro Inicial</b>
@@ -39,16 +39,16 @@
   </form>
 </template>
 
-<script>
+<script lang="js">
 ({
-  el: "#Formulário",
+  el: "#app",
   data: {
     errors: [],
     name: null,
     email: null,
     phoneNumber: null,
     password: null,
-  },
+  }
   computed: {
     campos: function () {
       return Number(this.phoneNumber) + Number(this.password);
@@ -66,7 +66,7 @@
       if (!this.name) {
         this.errors.push("O nome é obrigatório.");
       } else if (!this.validName(this.name)) {
-        this.errors.push("O nome digitado não consta no Banco de Dados.");
+        this.errors.push("O nome digitado não consta no Banco de Dados.");  
       }
       if (!this.phoneNumber) {
         this.errors.push("O número de telefone é obrigatório.");
@@ -91,6 +91,7 @@
   },
 });
 </script>
+
 <style>
 input {
   margin-left: 10px;
