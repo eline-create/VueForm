@@ -1,8 +1,9 @@
 # VueForm
 
-<Desenvolvimento em Front-End**>
+<Desenvolvimento em Front-End>
 
-
+Status: Em progresso.
+ 
 **Tecnologias que devem ser utilizadas**
 
  - Vue JS / Vuetify
