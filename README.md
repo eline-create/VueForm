@@ -6,7 +6,8 @@ Status: Em progresso.
  
 **Tecnologias que devem ser utilizadas**
 
- - Vue JS / Vuetify
+ - Vue.JS 
+ - Vuetify(recomendado)
 
 **O que deve ser feito?**
 
